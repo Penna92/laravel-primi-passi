@@ -77,6 +77,9 @@
 
 <body>
     <header class="flex-center">
+        <div class="links">
+            <a href="{{route('home')}}">Return to home</a>
+        </div>
         @foreach ($pages as $el)
         <div class="links">
             <a href="{{ $el['url'] }}">{{$el['link_name']}}</a>
@@ -100,7 +103,7 @@
 
         <div class="content">
             <div class="title m-b-md">
-                HELLO WORLD !
+                PAGINA DI PROVA 1
             </div>
         </div>
     </div>
